@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "userId": "int",
+  "id": "int",
+  "title": "string",
+  "completed": "boolean"
+}

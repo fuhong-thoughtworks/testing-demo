@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="src.test.java.integrational_tests.WorldTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-20T12:49:26" hostname="CNHong.local" time="0.834">
+  <properties/>
+  <testcase name="first_get_json_test" classname="src.test.java.integrational_tests.WorldTest" time="0.834"/>
+  <system-out><![CDATA[say test integration
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

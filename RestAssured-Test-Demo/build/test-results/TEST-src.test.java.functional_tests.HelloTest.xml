@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="src.test.java.functional_tests.HelloTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-12-20T12:49:23" hostname="CNHong.local" time="2.936">
+  <properties/>
+  <testcase name="first_get_json_test" classname="src.test.java.functional_tests.HelloTest" time="2.936"/>
+  <system-out><![CDATA[say test function
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
