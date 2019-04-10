@@ -1,14 +1,11 @@
-package src.test.java.functional_tests;
+package functional_tests;
 
-import io.restassured.matcher.RestAssuredMatchers.*;
-import org.hamcrest.Matchers.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import static io.restassured.RestAssured.*;
-import static io.restassured.module.jsv.JsonSchemaValidator.*;
+import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.hamcrest.core.IsEqual.equalTo;
-import com.google.gson.*;
 
 public class HelloTest {
     @Before

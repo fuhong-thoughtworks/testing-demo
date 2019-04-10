@@ -55,14 +55,14 @@ test {
         //        org.gradle.api.tasks.testing.logging.TestLogEvent.STANDARD_ERROR,
     }
 
-    filter {
-        //include specific method in any of the tests
-//        includeTestsMatching "*Test"
-
-        //include all tests from package
-        includeTestsMatching "src.test.java.*"
-
-        //include all integration tests
-//        includeTestsMatching "*IntegTest"
-    }
+//    filter {
+//        //include specific method in any of the tests
+////        includeTestsMatching "*Test"
+//
+//        //include all tests from package
+//        includeTestsMatching "src.test.java.*"
+//
+//        //include all integration tests
+////        includeTestsMatching "*IntegTest"
+//    }
 }

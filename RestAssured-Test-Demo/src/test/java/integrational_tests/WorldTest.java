@@ -1,10 +1,8 @@
-package src.test.java.integrational_tests;
+package integrational_tests;
 
-import io.restassured.matcher.RestAssuredMatchers.*;
-import org.hamcrest.Matchers.*;
 import org.junit.Test;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 
@@ -21,5 +19,4 @@ public class WorldTest {
                 body("userId", equalTo(1)).
                 body("title", equalTo("delectus aut autem"));
     }
-
 }
